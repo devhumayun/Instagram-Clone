@@ -16,7 +16,7 @@ import { isEmail, isMobile } from "../utility/validation.js"
 export const register = async ( req, res, next ) => {
 
     res.cookie('fbstk', "token", { expires: new Date(Date.now() + 86400000) }).status(200).json({
-        message : "User Registration successfull",
+        message : "User Registration Successfull",
         user : {}
     })
 
