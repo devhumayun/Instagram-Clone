@@ -1,0 +1,157 @@
+.auth_container{
+
+
+
+    .login_wrapper{
+
+        .signup_text{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            color: grey;
+            font-size: 18px;
+        }
+
+        .login_with_fb{
+            background-color: #0095F6;
+            width: 80%;
+            text-align: center;
+            color: #fff;
+            padding: 5px 0px;
+            border-radius: 3px;
+            margin-bottom: 5px;
+        }
+
+        .register_condition{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 20px 0px;
+            gap: 13px;
+
+            span{
+                font-size: 13px;
+
+                a{
+                    text-decoration: none;
+                    font-weight: 500;
+                    color: #3d3d3d;
+                }
+            }
+        }
+    }
+
+}
+
+input.login_input{
+    position: relative;
+}
+
+input.login_input:focus {
+    border: 1px solid #a5a6a7 !important;
+    border-radius: 4px !important;
+}
+
+.emailMobileCross{
+    display: inline-block;
+    position: absolute;
+    right: 13%;
+    top: 1%;
+    font-size: 19px;
+    color: red;
+}
+
+.emailMobileCheck{
+    display: none;
+    position: absolute;
+    right: 13%;
+    top: 1%;
+    font-size: 19px;
+    color: rgb(137, 136, 136); 
+}
+.emailMobileCheck.show{
+    display: block; 
+}
+
+.nameCross{
+    position: absolute;
+    top: 13%;
+    right: 13%; 
+    font-size: 19px;
+    color: red;
+}
+
+.nameCheck{
+    position: absolute;
+    top: 13%;
+    right: 13%; 
+    font-size: 19px;
+    color: rgb(137, 136, 136);
+    display: none;
+}
+
+.nameCheck.show{
+    display: block;
+}
+
+.usernameCrose{
+    position: absolute;
+    top: 25%;
+    right: 13%;
+    font-size: 19px;
+    color: red;
+}
+
+.usernameCheck{
+    position: absolute;
+    top: 25%;
+    right: 13%;
+    font-size: 19px;
+    color: rgb(137, 136, 136);
+    display: none;
+}
+
+.usernameCheck.show{
+    display: block;
+}
+
+
+.passwordCrose{
+    position: absolute;
+    top: 36.4%;
+    right: 25%;
+    font-size: 19px;
+    color: red;
+    display: none;
+}
+
+.passwordCheck{
+    position: absolute;
+    top: 36.4%;
+    right: 25%;
+    font-size: 19px;
+    color: rgb(137, 136, 136);
+    display: none;
+}
+
+.passwordCheck.show{
+    display: block;
+}
+
+.showHidePassword{
+    position: absolute;
+    top: 38%;
+    right: 13%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer; 
+
+}
+
+// .showHidePassword.show{
+//     display: block;
+// }
