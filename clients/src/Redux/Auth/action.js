@@ -12,12 +12,13 @@ export const register = (data,e,setInput,navigate) => async (dispatch) => {
             type : REGISTER_REQUEST
         })
         
-        await axios.post("http://localhost:5050/api/user/register", data)
+        await axios.post("/api/user/register",data)
         .then(res => {
             dispatch({
                 type: REGISTER_SUCCESS,
                 payload : res.data.message
             })
+            console.log(res);
             navigate('/birthday')
             setInput({
                 name : '',
