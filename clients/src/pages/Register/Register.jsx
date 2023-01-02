@@ -82,7 +82,6 @@ const Register = () => {
     
   }
 
-
   const handleFocusValidation = (e) => {
  
     setValidation((prev) => ({
