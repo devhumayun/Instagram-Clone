@@ -123,6 +123,8 @@ export const updateBirthday = async (req, res, next) => {
 }
 
 
+
+
 export const accountActivation = () => {
 
 }
